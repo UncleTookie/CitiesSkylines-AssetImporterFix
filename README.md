@@ -19,7 +19,7 @@ This is a lightweight patch intended solely to restore broken vanilla functional
 This repository provides full transparency while protecting the author's rights through the GPL‑3.0 license.
 
 ## Known Bug & Limitations
-Currently, this fix works flawlessly on some asset types, and not on others. And, strangely, only during night/day cycles. Building assets assign all maps and textures correctly. Prop assets, however, will either have no illumination during the day, or 100% illumination for the whole model at night. If this one bug can be sorted out, then I think we can call this project done.
+Seems like everything is mostly working now. Just don't add an _i texture map to your model if you don't need one.
 
 ## How It Works
 The fix adjusts the array indexing logic used when the importer assigns textures to channels.  
